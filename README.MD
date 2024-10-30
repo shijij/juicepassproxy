@@ -75,7 +75,7 @@ networks:
 
 services:
   juicepassproxy:
-    image: ghcr.io/snicker/juicepassproxy:latest
+    image: ghcr.io/shijij/juicepassproxy:latest
     hostname: juicepassproxy
     container_name: juicepassproxy
     restart: unless-stopped
